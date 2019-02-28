@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+	<link rel="stylesheet" href="css/F.min.css">
+	<!-- <link rel="stylesheet" href="CSS/jquery.mobile.icons-1.4.5min.css"> -->
+
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WEB APP</title>
+
+</head>
+<body>
+	<!-- pagina inicio -->
+	<div id="inicio" data-theme="F" data-role="page" data-tittle="inicio" > 
+			<div data-role="header">
+				<a href="#panel" data-role="button">Menú</a>
+				<h1>Mi primera APP Interfaz</h1> 
+			</div>
+		<div data-role="content">
+					<!-- panel de control -->
+
+					<div data-role="panel" data-display="overlay" id="panel" data-position="right">
+						<h3>Menú</h3>
+						<ul data-role="listview">
+						<li><a href="#pagina1">pagina1</a></li>
+						<li><a href="#">pagina2</a></li>
+						<li><a href="#">pagina3</a></li>
+						<li><a href="#">pagina4</a></li>
+						<li><a href="#">pagina5</a></li>
+						</ul>
+						<a href="#" data-rel="close" data-role="button">Cerrar</a>
+					</div>
+					<!-- final panel de control -->
+			<p>Contenido APP</p>
+			<hr>
+			<a data-role="button" href="#contacto" data-rel="dialog">Contacto</a>
+			<img width="100%" src="css/images/IMAGEN INICIO VR46.jpg">	
+		</div>
+
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a data-transition="flip" data-icon="star" href="#misión">Misión</a></li>
+					<li><a data-transition="pop" data-icon="plus" href="#visión">Visión</a></li>
+					<li><a data-transition="slideup" data-icon="grid" href="#servicios">Servicios</a></li>
+					<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- fin pagina de inicio -->
+
+<!-- pagina1 -->
+	<div id="pagina1" data-theme="b" data-role="page" data-tittle="pagina1" > 
+			<div data-role="header">
+				
+				<h1>Pagina 1</h1> 
+			</div>
+		<div data-role="content">
+			
+					
+			<img width="100%" src="css/images/valentino_rossi_41_anos_motogp_2020.jpg">	
+		</div>
+
+
+		<div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a data-transition="flip" data-icon="star" href="#misión">Misión</a></li>
+					<li><a data-transition="pop" data-icon="plus" href="#visión">Visión</a></li>
+					<li><a data-transition="slideup" data-icon="grid" href="#servicios">Servicios</a></li>
+					<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- fin pagina1 -->
+	
+
+
+	<!-- mision inicio -->
+		<div id="misión" data-theme="b" data-role="page" data-tittle="misión" > 
+				<div data-role="header">
+					<h1>Misión</h1> 
+				</div>
+				<div data-role="content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque hic quis minus, officiis accusantium ut similique. Obcaecati mollitia blanditiis quaerat tempore, atque architecto error sed maxime omnis. Eius impedit, nostrum.	
+				</div>
+		
+		
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a data-transition="flip" data-icon="star" href="#misión">Misión</a></li>
+							<li><a data-transition="pop" data-icon="plus" href="#visión">Visión</a></li>
+							<li><a data-transition="slideup" data-icon="grid" href="#servicios">Servicios</a></li>
+							<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	<!-- mision final -->
+
+	<!-- vision inicio -->
+
+		<div id="visión" data-theme="b" data-role="page" data-tittle="inicio" > 
+				<div data-role="header">
+					<h1>visión</h1> 
+				</div>
+				<div data-role="content">
+					<ul data-role="list-view">
+							<li><a href="#1">p1</a></li>
+							<li><a href="#2">p2</a></li>
+							<li><a href="#3">p3</a></li>
+							<li><a href="#4">p4</a></li>
+						</ul>	
+				</div>
+		
+		
+				<div data-role="footer" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a data-transition="flip" data-icon="star" href="#misión">Misión</a></li>
+							<li><a data-transition="pop" data-icon="plus" href="#visión">Visión</a></li>
+							<li><a data-transition="slideup" data-icon="grid" href="#servicios">Servicios</a></li>
+							<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+	<!-- vision final -->
+
+	<!-- contacto inicio -->
+
+	<div data-role="page" id="contacto" data-title="contacto">
+		<div data-role="header">
+			<h1>contacto</h1>
+		</div>
+		<div data-role="content">
+			<form action="#" method="post">
+				Nombre:
+				<input type="text">
+				Correo:
+				<input type="text">
+				Comentario
+				<textarea  cols="30" rows="10"></textarea>
+				<input type="submit" value="Enviar">
+
+			</form>
+		</div>
+		<div data-role="footer">
+			<p> Cel:. 3203633069, Cra98 #2a-60</p>
+		</div>
+	</div>
+	<!-- contacto final -->
+
+	<!-- servicios inicio-->
+	<div id="servicios" data-theme="b" data-role="page" data-tittle="servicios" > 
+			<div data-role="header">
+				<h1>servicios</h1> 
+			</div>
+			<div data-role="content">
+				<div data-role="collapsite">
+						<h3>servicios</h3>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repudiandae quaerat impedit nihil placeat ipsa enim ipsam, voluptatum magnam, molestias incidunt est cupiditate aperiam esse animi quae quisquam? Omnis, voluptatem.
+					</p>
+					</div>	
+			</div>
+	
+	
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-transition="flip" data-icon="star" href="#misión">Misión</a></li>
+						<li><a data-transition="pop" data-icon="plus" href="#visión">Visión</a></li>
+						<li><a data-transition="slideup" data-icon="grid" href="#servicios">Servicios</a></li>
+						<li><a data-transition="slidedown" data-icon="home" href="#inicio">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!-- servicios final-->
+
+
+	<!-- Llamando los scripsts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<!-- Finalizando llamado de los scripts -->
+
+</body>
+</html>
